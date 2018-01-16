@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class soalan66 {
 public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-    System.out.println("Taipkan tahun :");
+    System.out.println("Masukkan tahun :");
 int year = input.nextInt();
 switch (year % 12) {
 case 0 : System.out.println( "monyet"); break;
